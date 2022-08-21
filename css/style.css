@@ -1,0 +1,35 @@
+/*@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');*/
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Poppins&display=swap');
+:root {
+    --primary-color: #C4FCEF;
+    --primary-color-dark: #4D8076;
+    --accent-color: #845EC2;
+    --color-opcional-1: #B0A8B9;
+}
+
+main
+{
+    height: 500px;
+}
+
+h1
+{
+    font-family: 'Aboreto', cursive;
+}
+
+.texto
+{
+    font-family: 'Poppins', sans-serif;
+}
+
+footer
+{
+    background-color: var(--primary-color-dark);
+    color:  #FFFFFF;
+}
+
+#imagen
+{
+    width: auto;
+    height: 75%;
+}

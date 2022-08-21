@@ -7,8 +7,57 @@
     <title>ID Card Web - Oscar Ugarte</title>
     <!-- Enlazando el CSS de Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
+    <div class="container-fluid">
+        <main >
+            <hr>
+            <article class="row my-5 justify-content-center align-items-center" >
+                <div class=" col-sm-12 col-md-4 col-lg-3 ">
+                    <img id="imagen" src="images/oscar.jpg" class="img-fluid rounded-circle img-thumbnail" alt="">
+                </div>
+                <div class=" col-sm-12 col-md-8 col-lg-9">
+                    <div class="card border-white text-center">
+                        <div class="card-header bg-transparent border-success fs-2"><h1>Oscar Cesar Ugarte</h1></div>
+                        <div class="card-body text-success">
+                            <h5 class="card-title">Un poco de mi: </h5>
+                            <p class="card-text texto">Actualmente estoy cursando la carrera de Analista Programador Universitario en la Universidad Nacional de Jujuy. También me estoy preparando para ser Desarrollador Front End.</p>
+                        </div>
+                        <div class="card-footer bg-transparent border-success"><button type="button" class="btn btn-outline-dark" data-bs-toggle="modal" data-bs-target="#exampleModal">Conoceme</button></div>
+                    </div>
+                </div>   
+            </article>
+            <hr>
+        </main>
+    </div>
+    <div class="contaniner">
+        <div class="row">
+            <div class="col-12">
+                <!--Ventana Modal-->
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Un poco más de mi: </h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body text-center texto">
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item">Uso Linux desde el 2012. Mi distribución preferida es Ubuntu.</li>
+                                    <li class="list-group-item">Conozco un poco de Java, Php, Ruby y JavaScript. </li>
+                                    <li class="list-group-item">Me llevo bien con en Inglés cuando se trata de leer y traducir. La parte del "listening" y "speaking" me falta mejorar. </li>
+                                </ul>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <!-- Opcional: enlazando el JavaScript de Bootstrap -->
     <script src="js/bootstrap.bundle.min.js" ></script>
     <script src="js/popper.min.js" ></script>
