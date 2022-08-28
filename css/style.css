@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Roboto+Slab:wght@300&display=swap');
+:root {
+    --primary-color: #0762F5;
+    --primary-color-dark: #0A23FF;
+    --accent-color: #FFF8F0;
+    --color-negro: #000000;
+}
+
+body
+{
+    font-family: 'Roboto Slab', Courier, monospace;
+}
